@@ -1,0 +1,19 @@
+{
+	"batch_size": 32,
+	"learning_rate": 0.003,
+	"image_width": 32,
+	"image_height": 32,
+	"epochs": 5,
+	"lr_decay": 200,
+	"weight_decay": 200,
+	"test_data_ratio": 0.9,
+	"class_labels":["0","1","2","3","4"],
+	"dataset_folder":"D:\\software\\PyCharm Community Edition 2023.1.2\\deep learning\\MNIST_Demo\\train_images",
+	"image_channels": 3,
+	"Momentum": 0.9,
+	"weights" : "./checkpoints/",
+	"model_name": "mnist",
+	"val_step_interval": 10,
+	"train_step_interval": 1
+
+}
